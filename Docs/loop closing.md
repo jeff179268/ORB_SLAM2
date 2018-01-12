@@ -1,2 +1,2 @@
-# Document of Loop Closing
+# Document for Loop Closing
 ## To be editing...
