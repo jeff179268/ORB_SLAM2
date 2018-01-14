@@ -48,16 +48,16 @@
     * Caller : **KeyFrame::UpdateConnections()**
     * Do : Add two keyfame to connect if they have more than enough common features
 
-11. void KeyFrame::UpdateBestCovisibles()
+11. ## void KeyFrame::UpdateBestCovisibles()
     * Caller : **KeyFrame::AddConnection**
     * DO : According to the **number of feature points** to updated their relation
 
-12. set<KeyFrame*> KeyFrame::GetConnectedKeyFrames()
+12. ## set<KeyFrame*> KeyFrame::GetConnectedKeyFrames()
     * Caller : **Map::Save**
     * Do : Get the keyframe which is connected by the target keyframe 
     * Output : A set which is connected keyframe
 
-13. vector<KeyFrame*> KeyFrame::GetVectorCovisibleKeyFrames()
+13. ## vector<KeyFrame*> KeyFrame::GetVectorCovisibleKeyFrames()
     * Caller : **KeyFrame::SetBadFlag()**   
     * Do : Get the keyframe which is sorted by the number of map points
     * Output : A vector which is the id of the keyframe 
