@@ -112,3 +112,20 @@
     *  Caller : **KeyFrame::UpdateConnections()**
     *  Do : Add the child to this frame 
 
+25. ## void KeyFrame::EraseChild(KeyFrame *pKF)
+    *  Caller : **KeyFrame::UpdateConnections()**
+    *  Do : Erase the child to this frame 
+
+26. ## void KeyFrame::ChangeParent(KeyFrame *pKF)
+    * Caller : **KeyFrame::UpdateConnections()**
+    * Do : Change the parent from original to another
+
+27. ## set<KeyFrame*> KeyFrame::GetChilds()
+    * Caller : **UpdateLocalKeyFrames()**
+    * Do : Get the child of this frames
+    * Output : A set that contain the children of this frames
+
+28. ## KeyFrame* KeyFrame::GetParent()
+    * Caller : **UpdateLocalKeyFrames()**
+    * Do : Get the parent of this frames
+    * Output : A set that contain the parent of this frames
