@@ -106,16 +106,16 @@
 + Caller: 
 
 + DO: 
-++ Send stop signal to Local Mapping
-++ abort Global Bundle Adjustment if running
-++ Correct all MapPoints obsrved by current keyframe and neighbors
-++ Update keyframe pose with corrected Sim3, Loop Fusion
-++ Update matched map points and replace if duplicated
-++ Project MapPoints observed in the neighborhood of the loop keyframe into the current keyframe and neighbors using corrected poses.
-++ Fuse duplications
-++ Update connections and detect new links
-++ Optimize graph
-++ Launch a new thread to perform Global Bundle Adjustment
+        + Send stop signal to Local Mapping
+        + abort Global Bundle Adjustment if running
+        + Correct all MapPoints obsrved by current keyframe and neighbors
+        + Update keyframe pose with corrected Sim3, Loop Fusion
+        + Update matched map points and replace if duplicated
+        + Project MapPoints observed in the neighborhood of the loop keyframe into the current keyframe and neighbors using corrected poses.
+        + Fuse duplications
+        + Update connections and detect new links
+        + Optimize graph
+        + Launch a new thread to perform Global Bundle Adjustment
 
 17. void ResetIfRequested()
 
