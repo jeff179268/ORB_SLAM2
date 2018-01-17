@@ -26,12 +26,7 @@ ORB EXTRACTOR MATCHING
 loop closing - G2O - keyframeDatabase - ORBVocabulary 
 
 ## 士弘
-keyframe - frame 
+keyframe - frame - mapping
 
 ## 克齊
-tracking - optimization 
-
-## Unsure
-mapping 待撿
-
-pnpsolver 未發現用處
+tracking - optimization - pnpsolver
