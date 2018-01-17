@@ -55,3 +55,11 @@
 13. ## void Frame::ComputeImageBounds(const cv::Mat &imLeft)
     * Caller : **Frame::Frame()**
     * Do : **If the image has be distorted update the image bounds if not keep the origin size**
+
+14. ## void Frame::ComputeStereoFromRGBD(const cv::Mat &imDepth)
+    * Caller :　**Frame::Frame()**
+    * Do : **Match the MapPoints and depths**
+    
+15. ## cv::Mat Frame::UnprojectStereo(const int &i)
+    * Caller : **Tracking::StereoInitialization()**
+    * Do :  project the MapPoints to the **world coordinate system**
