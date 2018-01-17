@@ -2,22 +2,34 @@
 
 ## Functions
 
-1. LoopClosing(Map* pMap, KeyFrameDatabase* pDB, ORBVocabulary* pVoc,const bool bFixScale);
+1. LoopClosing(Map* pMap, KeyFrameDatabase* pDB, ORBVocabulary* pVoc,const bool bFixScale)
 
-2. void SetTracker(Tracking* pTracker);
++ Caller: 
 
-3. void SetLocalMapper(LocalMapping* pLocalMapper);
++ DO: 
+
+2. void SetTracker(Tracking* pTracker)
+
++ Caller: 
+
++ DO: 
+
+3. void SetLocalMapper(LocalMapping* pLocalMapper)
+
++ Caller: 
+
++ DO: 
 
 #### Main function
 
-4. void Run();
+4. void Run()
 
-5. void InsertKeyFrame(KeyFrame *pKF);
+5. void InsertKeyFrame(KeyFrame *pKF)
 
-6. void RequestReset();
+6. void RequestReset()
 
 #### This function will run in a separate thread
-7. void RunGlobalBundleAdjustment(unsigned long nLoopKF);
+7. void RunGlobalBundleAdjustment(unsigned long nLoopKF)
 
 8. bool isRunningGBA(){
         unique_lock<std::mutex> lock(mMutexGBA);
@@ -29,22 +41,22 @@
         return mbFinishedGBA;
     }   
 
-10. void RequestFinish();
+10. void RequestFinish()
 
-11. bool isFinished();
+11. bool isFinished()
 
-12. bool CheckNewKeyFrames();
+12. bool CheckNewKeyFrames()
 
-13. bool DetectLoop();
+13. bool DetectLoop()
 
-14. bool ComputeSim3();
+14. bool ComputeSim3()
 
-15. void SearchAndFuse(const KeyFrameAndPose &CorrectedPosesMap);
+15. void SearchAndFuse(const KeyFrameAndPose &CorrectedPosesMap)
 
-16. void CorrectLoop();
+16. void CorrectLoop()
 
-17. void ResetIfRequested();
+17. void ResetIfRequested()
 
-18. bool CheckFinish();
+18. bool CheckFinish()
 
-19. void SetFinish();
+19. void SetFinish()
