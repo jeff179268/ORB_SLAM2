@@ -3,7 +3,8 @@
 ## typedef DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor, DBoW2::FORB>ORBVocabulary;
 
 ```
-input: DBoW2::FORB::TDescriptor, DBoW2::FORB
+Input:
+	DBoW2::FORB::TDescriptor, DBoW2::FORB
 ```
 
 create a DBoW2::TemplatedVocabulary object call ORBVocabulary
