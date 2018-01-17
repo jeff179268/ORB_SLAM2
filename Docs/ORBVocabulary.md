@@ -7,7 +7,7 @@ Input:
 	DBoW2::FORB::TDescriptor, DBoW2::FORB
 ```
 
-create a DBoW2::TemplatedVocabulary object call ORBVocabulary
+Create a DBoW2::TemplatedVocabulary object call ORBVocabulary
 
 Created in System.cc
 
