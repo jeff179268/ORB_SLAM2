@@ -50,6 +50,6 @@ Caller
 + pnpsolver
 
 ### 補充
-+ 流程圖
++ 從System依照thread建立流程圖
 + 舉例I/O
 
