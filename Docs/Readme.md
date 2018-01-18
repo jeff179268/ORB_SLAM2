@@ -52,5 +52,7 @@ Caller
 ### 補充
 + 從System依照thread建立流程圖
 + 能講解到聽得懂該thread做的事
-+ 舉例I/O
++ 舉例I/O if possible
++ Initialize?
+
 
